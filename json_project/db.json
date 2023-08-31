@@ -1,0 +1,36 @@
+{
+  "todo": [
+    {
+      "id": 1,
+      "body": "uiop",
+      "status": false
+    },
+    {
+      "id": 1693476468162,
+      "body": "to",
+      "status": false
+    },
+    {
+      "id": 1693476470500,
+      "body": "wer",
+      "status": false
+    }
+  ],
+  "st": [
+    {
+      "id": 2,
+      "name": "Harsh",
+      "ambition": "hsd"
+    },
+    {
+      "id": 1693460662064,
+      "name": "adarsh",
+      "ambition": "fsd"
+    },
+    {
+      "id": 1693471074940,
+      "name": "Gaurav",
+      "ambition": "fsd"
+    }
+  ]
+}
