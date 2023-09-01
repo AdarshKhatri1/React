@@ -94,3 +94,35 @@ let data = {body:"uiop"}
 
 }
 
+
+async function addBundleData(){
+
+    console.log("enter")
+
+    const data = [
+        {
+            id:Date.now(),
+            body:"1234",
+            status:false
+        },
+        {
+            id:Date.now(),
+            body:"5678",
+            status:false
+        }
+
+    
+    ]    
+        let d = await fetch(url,{
+
+            method:"POST",
+            body:JSON.stringify(data),
+            headers:{
+                "Content-type": "application/json"
+            }
+        });
+        let res = await d.json()
+    console.log(res)
+    
+
+}
