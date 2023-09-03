@@ -18,6 +18,7 @@ import Garbage from './C7/Garbage';
 import Form from './C8/Form';
 import Input from './C8/Input';
 import Countdown from './C8/Countdown';
+import Payal, { Adarsh, Gaurav, Harsh, Khushi } from './Component/Importpractice';
 
 
 
@@ -55,10 +56,23 @@ root.render(
 //C8
 // <Form /> 
 //<Input />
-<Countdown />
+ //<Countdown /> 
 // -----------------------------
-   
-  
+
+
+// -----------------------------
+//    <div>
+// {/* <A darsh /> */}
+// {/* <Khushi /> */}
+//  <Gaurav />
+//  <Harsh />
+//  <Payal />
+//    </div>
+// -----------------------------
+
+
+
+
 );
 
 // If you want to start measuring performance in your app, pass a function
