@@ -4,6 +4,8 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import ThemeContextProvider from './Context/Themecontext';
+import ReducerContextProvider from './Reducerwork/Reducer&Context';
+import HReducerContextProvider from './Reducerwork/Homework/HReducerContext';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -12,10 +14,19 @@ root.render(
   //   <App />
   // </AppcontextProvider>
 
-  <ThemeContextProvider >
-    <App/>
-  </ThemeContextProvider>
+  // <ThemeContextProvider >
+  //   <App/>
+  // </ThemeContextProvider>
   
+
+  // <ReducerContextProvider>
+  //   <App />
+  // </ReducerContextProvider>
+
+
+  <HReducerContextProvider>
+  <App/>
+  </HReducerContextProvider>
   
 );
 
