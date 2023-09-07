@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import ThemeContextProvider from './Context/Themecontext';
 import ReducerContextProvider from './Reducerwork/Reducer&Context';
 import HReducerContextProvider from './Reducerwork/Homework/HReducerContext';
+import { Hgithub_context_Provider } from './Reducerwork/Homework/Hgithub_reducerContext';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -24,10 +25,14 @@ root.render(
   // </ReducerContextProvider>
 
 
-  <HReducerContextProvider>
-  <App/>
-  </HReducerContextProvider>
+  // <HReducerContextProvider>
+  // <App/>
+  // </HReducerContextProvider>
   
+
+  <Hgithub_context_Provider>
+    <App />
+  </Hgithub_context_Provider>
 );
 
 // If you want to start measuring performance in your app, pass a function

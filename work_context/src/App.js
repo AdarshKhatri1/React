@@ -6,6 +6,7 @@ import Wtheme from './Component/Wtheme';
 import Wreducer from './Reducerwork/Wreducer';
 import ReducerwithContext from './Reducerwork/ReducerWithContext';
 import HReducer from './Reducerwork/Homework/HReducer';
+import Hgithub_reducer from './Reducerwork/Homework/Hgithub_reducer';
 
 
 function App() {
@@ -19,7 +20,8 @@ function App() {
 
       {/* <ReducerwithContext /> */}
 
-      <HReducer />
+      {/* <HReducer /> */}
+      <Hgithub_reducer />
     </div>
   );
 }
