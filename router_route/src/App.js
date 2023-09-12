@@ -12,7 +12,7 @@ import Nvb2 from './Components/7_July_Classwork/C2/Nvb2';
 function App() {
   return (
     <div className="App">
-      <h1> Class  Work</h1>
+      <h1> Class  Work </h1>
        {/* -----------------------start---------------------------------  */}
             {/* 
           <div>
@@ -41,8 +41,10 @@ function App() {
 
           
           {/* 2nd */}
+          <div>
           <Nvb2/>
           <Allroute/>
+          </div>
 
 
 

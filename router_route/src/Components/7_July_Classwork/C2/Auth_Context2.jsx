@@ -7,7 +7,7 @@ export const Auth_Context2 = createContext();
 export default function Auth_Context_Provider2({children}){
 
     const [auth,setAuth] = useState({
-        isAuth:false,
+        isAuth:true,
         token:null
     });
 
