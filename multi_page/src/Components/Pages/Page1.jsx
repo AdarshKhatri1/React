@@ -28,6 +28,9 @@ export default function Page1(){
         <div>
             page 1
 
+            {name}
+            {price}
+
             <form onSubmit={handleSubmit}>
 
                 <div>

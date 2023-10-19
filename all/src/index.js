@@ -19,6 +19,7 @@ import Form from './C8/Form';
 import Input from './C8/Input';
 import Countdown from './C8/Countdown';
 import Payal, { Adarsh, Gaurav, Harsh, Khushi } from './Component/Importpractice';
+import Practice from './Practice/Practice';
 
 
 
@@ -71,6 +72,7 @@ root.render(
 // -----------------------------
 
 
+<Practice />
 
 
 );
