@@ -35,3 +35,14 @@ install redux npm install redux
 npm install react-redux  latest version of redux   
 npm install react-redux
 latest version use hua hai live me l1 l2 etc
+
+
+
+redux ka 2 ka readme dekhlo
+redux with react
+export const store = new Store({count:1},fn);
+import { useSelector } from "react-redux"
+export default function Home(){
+    const state = useSelector((state)=>state)
+    console.log(state)
+}

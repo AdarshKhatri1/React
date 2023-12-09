@@ -1,4 +1,6 @@
-redux with react
+we will use redux with react
+install redux npm install redux
+
 export const store = new Store({count:1},fn);
 
 

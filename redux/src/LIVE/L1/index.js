@@ -14,6 +14,7 @@ class Store{
     getState(){
         return this.#state;
     }
+    //or
     get state(){
         return this.#state;
     }

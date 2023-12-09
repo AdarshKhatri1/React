@@ -1,3 +1,7 @@
+some new program with redux here not related with p1,p2,p3 program
+
+
+
 
 // action creater
 // it is a function
@@ -8,3 +12,7 @@
 
 
 reducer take two value state,action
+
+
+// HOw to  use Redux all file in application so for this we create component and 
+file counter.jsx to see

@@ -1,0 +1,19 @@
+useEffect(() => {})
+// The callback will get triggered everytime the component re-renders
+// When does the component re-renders?
+// - When the state of the component changes.
+// - If the props of the component changes.
+
+useEffect(() => {}, [])
+// This callback will get triggeded only for the first time, when the component mounts
+
+useEffect(() => {}, [value])
+//  this callback will get triggered for the first time when the component mounts, and when the value inside the array of dependency changes.
+
+
+useEffect(() => {
+    return () => {}
+},[value])
+//the cleanup function in the useEffect, will run 
+//1. When the component unmounts
+//2. When the value in the array of dependency changes, the cleanup function will run first, cleaning the side-effect of the previous render, before running the logic in the useEffect  

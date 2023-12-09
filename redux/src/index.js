@@ -1,4 +1,4 @@
-// LIVE KA HAI
+
 
 import React from 'react';
 import ReactDOM from 'react-dom/client';
@@ -7,15 +7,28 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { Provider } from 'react-redux';
 import { store } from './LIVE/L2/store';
+import { Store } from './P4/Redux/Store';
 import Home from './LIVE/L2/Home';
+import Appcontext_Provider from './P4/Redux/Appcontex';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  
-  <Provider store={store} >
+  // p4 ka hai
+  // <App />
 
-    {/* <App /> */}
-    <Home/>
-  </Provider>
+  // p4 counter3 ka hai
+
+  <Appcontext_Provider store = {Store} >
+    <App />
+  </Appcontext_Provider>
+
+
+  
+  // LIVE KA HAI
+  // <Provider store={store} >
+
+  //   {/* <App /> */}
+  //   <Home/>
+  // </Provider>
  
     
 

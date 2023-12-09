@@ -1,15 +1,15 @@
 
-import { addCounter, reduceCounter } from "../Redux/actions";
-import { store } from "../Redux/store";
 
+import { Store } from "../Redux/Store";
+import { addCounter, reduceCounter } from "../Redux/actions";
 export default function Counter(){
 
-    const {counter} = store.getState();
-    const {dispatch} = store
+    const {counter} = Store.getState();
+    const {dispatch} = Store
 
     return(
         <div>
-            <div>Counter : 0</div>
+            <div>Counter : {counter}</div>
             <button onClick={()=>(dispatch(addCounter(1)))}>Add</button>
             <button onClick={()=>(dispatch(reduceCounter(1)))}>Reduce</button>
 
@@ -20,8 +20,7 @@ export default function Counter(){
 // it not worked 
 // const reducer = (state= initState,{type,payload})=>{
 
-//     console.log(state,type,payload)
-
+//     console.log(state,type,payload) in reducer.js of Redux
 
 // see console is working but not updating in dom
 
