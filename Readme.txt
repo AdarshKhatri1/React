@@ -1,4 +1,4 @@
-npx create-react-app reactname
+npx create-react-app reactname and hit enter
 1. all
 2. evaluation_4july
 3. frontend_json, json_project

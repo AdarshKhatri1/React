@@ -12,7 +12,7 @@ export default function AppcontextProvider({children}){
 
     function toggleIsAuth(){
 
-        console.log("inside is Auth")
+        // console.log("inside is Auth")
         setIsAuth(!isAuth)
     }
 

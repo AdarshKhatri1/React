@@ -9,7 +9,7 @@ export default function ThemeContextProvider({children}){
     const[theme,setTheme] = useState("dark");
 
     function handleTheme(){
-        console.log("inside handleTheme")
+        // console.log("inside handleTheme")
         setTheme( theme==="dark"?"light":"dark")
     }
     return(
