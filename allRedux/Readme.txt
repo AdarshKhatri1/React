@@ -4,3 +4,6 @@
 3. redux3 - 6 sep live (to add todo run server also)
 
 ./work_context/src/Context
+
+4.reduxthunk
+5.bookaplication

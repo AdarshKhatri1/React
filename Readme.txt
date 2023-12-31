@@ -14,7 +14,8 @@ npx create-react-app reactname and hit enter
 
 10. r_redux 
 11. allRedux
-
+12. customhook  debouncing throtling
+13. 
 
 
 
