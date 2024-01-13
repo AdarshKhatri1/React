@@ -27,7 +27,9 @@ export default function Todoinput({gettodo}){
 
     const handlePost = ()=>{
         postfuc().then(()=>{
-            gettodo();
+            // gettodo();
+
+            dispatch(gettodo)
         })
     }
     

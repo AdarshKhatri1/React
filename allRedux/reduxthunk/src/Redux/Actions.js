@@ -1,3 +1,4 @@
+import axios from "axios"
 import { Actions } from "./Actionobj"
 
 export const Get_Todo_Request_obj = ()=>{
@@ -40,3 +41,17 @@ export const Post_Todo_Failure_obj = ()=>{
     
     }
 }
+
+export const getTodo=(dispatch)=>{
+    console.log("Enter action gettoso", typeof dispatch)
+
+        dispatch(Get_Todo_Request_obj());
+        return axios.get("http://localhost:8080/todos")
+        .then((r)=>{
+            dispatch(Get_Todo_Success_obj(r.data))
+        })
+        .catch((e)=>{
+            dispatch(Get_Todo_Failure_obj())
+        })
+
+    }
