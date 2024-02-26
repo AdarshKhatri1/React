@@ -1,0 +1,26 @@
+{
+    "todo": [],
+    "users": [],
+    "products": [
+        {
+            "id": 1,
+            "item": "watch",
+            "stock": "available"
+        },
+        {
+            "id": 2,
+            "item": "one plus",
+            "stock": "available"
+        },
+        {
+            "id": 3,
+            "item": "one night",
+            "stock": "not available"
+        },
+        {
+            "id": 4,
+            "item": "samsung",
+            "stock": "not available"
+        }
+    ]
+}
